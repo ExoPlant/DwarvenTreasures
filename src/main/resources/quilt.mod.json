@@ -1,25 +1,26 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.ExoPlant",
+		"id": "dwarventreasures",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Dwarven Treasures",
+			"description": "A small Tolkien-inspired mod that brings to minecraft some of the greatest treasures ever forged by the world's greatest metalworkers; Dwarves.",
 			"contributors": {
-				"Me!": "Owner"
+				"Tir-far-thóinn": "Owner",
+				"Ecorous": "Developer"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/ExoPlant/DwarvenTreasures/issues",
+				"sources": "https://github.com/ExoPlant/DwarvenTreasures"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/dwarventreasures/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.ExoPlant.dwarventreasures.DwarvenTreasures"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "dwarventreasures.mixins.json"
 }
